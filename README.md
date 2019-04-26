@@ -32,3 +32,19 @@ dependencies {
         app:rightTextColor="#ffffff"
         ></hx.com.titlebarlib.TitleBarView>
 ```
+
+```
+        titleView = findViewById(R.id.titleView);
+        titleView.setCenterTextSize(16);
+        titleView.setmClick(new TitleBarView.onViewClick() {
+            @Override
+            public void leftClick() {
+                Toast.makeText(TitleBarActivity.this,"左边点击",Toast.LENGTH_LONG).show();
+            }
+
+            @Override
+            public void rightClick() {
+                Toast.makeText(TitleBarActivity.this,"右边点击",Toast.LENGTH_LONG).show();
+            }
+        });
+ ```
