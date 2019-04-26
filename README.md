@@ -1,5 +1,4 @@
 # TitleBarView
-# TitleBarView
 用法：<br />
 dependencies {<br />
     ...<br />
